@@ -1,2 +1,8 @@
 # gif-giver
-Simple pet-project
+Описание проекта:
+Создать сервис, который обращается к сервису курсов валют, и отдает gif в ответ:  
+если курс по отношению к гривне за сегодня стал выше вчерашнего,  
+то отдаем рандомную отсюда https://giphy.com/search/rich  
+если ниже - отсюда https://giphy.com/search/broke
+Технологии, которые использовались:
+Spring, Spring Boot, PostgreSQL, OpenFeign
